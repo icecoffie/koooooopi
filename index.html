@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Receipt That Got Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Nunito+Sans:ital,opsz,wght@0,6..12,400..700;1,6..12,400..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="masthead" id="top">
+      <a class="brand" href="#top" aria-label="The Quiet Cup, back to top">
+        <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M8 16h21v9a9 9 0 0 1-9 9h-3a9 9 0 0 1-9-9v-9Zm21 2h3a5 5 0 0 1 0 10h-4M5 36h28M14 10c-4-4 4-5 0-9M22 10c-4-4 4-5 0-9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span>THE QUIET CUP</span>
+      </a>
+      <span class="masthead-note">COFFEE. CAKE. A LITTLE TOO MUCH THINKING.</span>
+    </header>
+
+    <main class="experience">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="edition">A RECEIPT FOR THE REST OF US</div>
+        <h1 id="page-title">Just coffee.<br>And everything<br><span>else.</span></h1>
+        <p>You came in for a little pick-me-up.<br>Apparently, you brought a few things with you.</p>
+        <p class="handwritten">It's all on your tab.</p>
+        <div class="scroll-guide">
+          <span class="scroll-arrow" aria-hidden="true">↓</span>
+          <div><strong>SCROLL TO PRINT</strong><span>The longer you stay, the more comes out.</span></div>
+        </div>
+      </section>
+
+      <section class="receipt-column" aria-label="Your café receipt">
+        <article class="receipt">
+          <header class="receipt-header">
+            <svg class="receipt-cup" viewBox="0 0 48 42" fill="none" aria-hidden="true"><path d="M9 15h25v10a11 11 0 0 1-11 11h-3A11 11 0 0 1 9 25V15Zm25 2h3a5 5 0 0 1 0 10h-3M5 39h35M17 10c-4-4 4-5 0-9M25 10c-4-4 4-5 0-9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <h2>THE QUIET CUP</h2>
+            <p>COFFEE &amp; OTHER FEELINGS</p>
+            <p class="receipt-address">Somewhere between fine &amp; tired.</p>
+            <div class="receipt-meta"><span>ORDER #0042</span><span>TABLE 04</span></div>
+            <div class="receipt-meta"><span>GUEST: YOU</span><span>TIME: A LITTLE LATE</span></div>
+          </header>
+          <div class="receipt-columns"><span>QTY / DESCRIPTION</span><span>AMOUNT</span></div>
+          <div class="receipt-items">
+            <div class="receipt-line"><span class="quantity">1</span><span>Flat white<small>Something to wake you up.</small></span><span class="amount">3.50</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Lemon cake<small>Something to make it better.</small></span><span class="amount">4.75</span></div>
+            <div class="receipt-line receipt-line--personal"><span class="quantity">1</span><span>Stayed a little longer than you meant to.</span><span class="amount">0.00</span></div>
+            <div class="receipt-line"><span class="quantity">3</span><span>Checked phone.<br>No particular reason.</span><span class="amount">0.50</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Rehearsed a conversation that never happened.</span><span class="amount">3.00</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Said “you too” to “enjoy your coffee.”</span><span class="amount">1.25</span></div>
+            <div class="receipt-line"><span class="quantity">3</span><span>Read a text in three different tones.</span><span class="amount">2.00</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Remembered something embarrassing from 2014.</span><span class="amount">4.50</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Watched someone leave. Invented their whole life.</span><span class="amount">2.75</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Opened calendar.<br>Closed calendar.</span><span class="amount">1.00</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Called being tired a personality trait.</span><span class="amount">3.50</span></div>
+            <div class="receipt-line"><span class="quantity">1</span><span>Held it together, mostly.</span><span class="amount">0.00</span></div>
+          </div>
+          <div class="receipt-totals">
+            <div><span>SUBTOTAL</span><span>26.75</span></div>
+            <div><span>OVERTHINKING TAX</span><span>WAIVED</span></div>
+            <div><span>HUMAN DISCOUNT</span><span>−26.75</span></div>
+          </div>
+          <div class="receipt-closing">
+            <span class="stamp">ON THE HOUSE</span>
+            <p>You've done enough today.<br>Let this one be on us.</p>
+            <div class="barcode" aria-hidden="true"></div>
+            <p class="receipt-balance">Balance due: one nap.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div class="printer-dock">
+      <div class="printer" role="img" aria-label="Vintage café receipt printer">
+        <div class="printer-top"><span class="printer-slot"></span></div>
+        <div class="printer-face">
+          <div class="printer-label"><span class="status-light"></span><span id="printer-status">READY TO PRINT</span></div>
+          <span class="printer-model">QC—42</span>
+          <div class="printer-vents" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <span class="printer-brand">quiet cup / thermal series</span>
+        </div>
+      </div>
+      <div class="printer-caption"><span>PLEASE KEEP YOUR FEELINGS CLEAR OF THE SLOT.</span></div>
+    </div>
+
+    <footer class="page-footer">
+      <span class="print-count"><span id="printed-count">02</span> / 12 ITEMS PRINTED</span>
+      <button type="button" id="print-again">Print again <span aria-hidden="true">↗</span></button>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
